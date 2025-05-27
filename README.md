@@ -1,4 +1,4 @@
-#Intially Create_products_tables inside your MySQL Database :- 
+# Intially Create_products_tables inside your MySQL Database :- 
 -- SQL script to create Products table for Product Management System
 -------------------------------------------------------
   CREATE DATABASE IF NOT EXISTS ProductDB;
