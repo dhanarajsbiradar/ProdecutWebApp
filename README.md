@@ -27,4 +27,14 @@ Inside your project, navigate to:
 Webapp/WEB-INF/lib (create lib if it doesn't exist).
 Copy and paste the JAR file(mysql-connector-java-8.x.x.jar (or newer version)) here.
 
+------------------------------------------------------------------------------------
+ MVC Architecture Structure:
+1. Model (Java Classes)
+Product.java – A POJO with fields, constructors, getters & setters.
+ProductDAO.java – Handles all DB operations using JDBC.
 
+2. View (JSP)
+addProduct.jsp, updateProduct.jsp, displayProducts.jsp, report.jsp, etc.
+
+3. Controller (Servlets)
+AddProductServlet, UpdateProductServlet, DeleteProductServlet, DisplayProductsServlet, ReportByCategoryServlet.
